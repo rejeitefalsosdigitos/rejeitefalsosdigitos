@@ -430,7 +430,7 @@ function showPuzzleScreen(level) {
         
         // Texto explicativo
         const audioText = document.createElement('p');
-        audioText.textContent = 'além do lcd';
+        audioText.textContent = 'previa rfd.';
         audioText.style.textAlign = 'center';
         audioText.style.marginBottom = '15px';
         audioText.style.fontSize = '16px';

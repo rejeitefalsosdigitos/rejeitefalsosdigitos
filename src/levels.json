@@ -29,7 +29,7 @@
             "y": -100,
             "completed": false,
             "unlocked": false,
-            "connections": [3,4,5,10],
+            "connections": [3,4,5,10,12],
             "puzzle": {
                 "description": "",
                 "image": "",
@@ -59,6 +59,11 @@
                     {
                         "answer": "simulacro",
                         "unlocks": [10],
+                        "message": "!"
+                    },
+                    {
+                        "answer": "alimentando a maquina",
+                        "unlocks": [12],
                         "message": "!"
                     }
 
@@ -102,6 +107,7 @@
                         "unlocks": [6],
                         "message": "!"
                     }
+
 
                 ],
                 "hint": null
@@ -251,10 +257,78 @@
             "puzzle": {
                 "description": "sndo.ffm.to/779xyv8",
                 "image": null,
-                "answer": null,
                 "hint": null
             }
+        },
+        {
+            "id": 12,
+            "title": "",
+            "x": 200,
+            "y": -200,
+            "completed": false,
+            "unlocked": false,
+            "connections": [13],
+            "puzzle": {
+                "description": "",
+                "image": "files/censurado.jpg", 
+                "answer": "mundo obscuro",
+                "alternativeAnswers": [
+                    {
+                        "answer": "mundo obscuro",
+                        "unlocks": [13],
+                        "message": "!"
+                    }
+                ],
+
+
+
+                "hint": null
+            }
+        },
+        {
+            "id": 13,
+            "title": "",
+            "x": 300,
+            "y": -250,
+            "completed": false,
+            "unlocked": false,
+            "hideInput": false,
+            "connections": [14],
+            "puzzle": {
+                "description": "",
+                "image": "files/a-maquina.zip",
+                "answer": "concatenação",
+                "alternativeAnswers": [
+                    {
+                        "answer": "concatenação",
+                        "unlocks": [14],
+                        "message": "!"
+                    }
+                ],
+                "hint": null
+
+            }
+        },
+        {
+            "id": 14,
+            "title": "",
+            "x": 400,
+            "y": -300,
+            "completed": false,
+            "unlocked": false,
+            "hideInput": true,
+            "hideLogo": true,
+            "connections": [],
+            "puzzle": {
+                "description": "",
+                "image": null,
+                "hint": null,
+                "music": "files/mundo obscuro.mp3",
+                "hideInput": true
+            }
         }
+        
+
 
 
 
